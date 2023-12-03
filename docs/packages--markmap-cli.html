@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<meta name="theme-color" content="#333333" />
+		<link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		
+		<link href="../_app/immutable/assets/0.254b6b5d.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/4.a8067485.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.e3d1895d.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/scheduler.4813dac0.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.55a8e8a3.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.6063bb9a.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.6ec1b8f1.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper.cf010ec4.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.6267134c.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.337d9992.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores.eb563214.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/ga.d84d4cc0.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/toast.ba9d61ec.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/4.d8e244ec.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/footer.4bf0f568.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/common.37e246a8.js"><title>markmap-cli - markmap docs</title><!-- HEAD_svelte-sm1cyn_START --><meta name="Description" content="The documentation of markmap packages."><!-- HEAD_svelte-sm1cyn_END -->
+	</head>
+	<body>
+		   <nav><ul class="flex"><li><a href="/">home</a> </li><li><a href="/repl">try it out</a> </li><li><a aria-current="page" href="/docs">docs</a> </li> <li class="flex-1"></li> <li class="items-center hidden md:flex"></li> <li data-svelte-h="svelte-ibqe5i"><a href="https://github.com/markmap/markmap" target="_blank" rel="noreferrer noopener">GitHub</a></li> <li data-svelte-h="svelte-28lxup"><a href="https://gera2ld.space/donate/" target="_blank" rel="noreferrer noopener">donate</a></li></ul></nav>   <main class="flex md:fs"><aside class="bg-gray-100 p-4 hidden lg:block overflow-auto" style="width:240px"><ul class="toc"><li class="toc-item"><a href="markmap">markmap</a></li> <li class="toc-item"><a href="json-options">JSON options</a></li> <li class="toc-item"><a href="faq">faq</a></li> <li class="toc-sep">Packages </li><li class="toc-item"><a href="packages--markmap-lib">markmap-lib</a></li> <li class="toc-item"><a href="packages--markmap-view">markmap-view</a></li> <li class="toc-item"><a href="packages--markmap-cli" class="active">markmap-cli</a></li> <li class="toc-item"><a href="packages--markmap-toolbar">markmap-toolbar</a></li> <li class="toc-item"><a href="packages--coc-markmap">coc-markmap</a></li> </ul></aside> <div class="markdown flex-1 min-w-0 p-4 lg:pr-12 overflow-auto"><h1>markmap-cli</h1> <!-- HTML_TAG_START --><p><img src="https://img.shields.io/npm/v/markmap-cli.svg" alt="NPM"></p>
+<p>Use markmap command-line in a local terminal.</p>
+<h2 id="usage">Usage</h2>
+<pre><code class="language-bash">$ npx markmap-cli markmap.md
+</code></pre>
+<p>You can also install it globally:</p>
+<pre><code class="language-bash">$ npm install -g markmap-cli
+$ markmap markmap.md
+</code></pre>
+<p>There is a watch mode so that you could edit the Markdown file and get updates on the fly:</p>
+<pre><code class="language-bash">$ markmap -w markmap.md
+</code></pre>
+<!-- HTML_TAG_END --> <footer data-svelte-h="svelte-1lh3k54">Designed with ♥ by <a href="https://github.com/gera2ld" target="_blank" rel="noreferrer noopener">gera2ld</a></footer></div></main> <div class="toast-wrapper"></div>  
+			
+			<script>
+				{
+					__sveltekit_zunck1 = {
+						base: new URL("..", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("../_app/immutable/entry/start.e3d1895d.js"),
+						import("../_app/immutable/entry/app.6ec1b8f1.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 4],
+							data,
+							form: null,
+							error: null
+						});
+					});
+
+					if ('serviceWorker' in navigator) {
+						addEventListener('load', function () {
+							navigator.serviceWorker.register('../service-worker.js');
+						});
+					}
+				}
+			</script>
+		
+	</body>
+</html>
